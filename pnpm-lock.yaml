@@ -41,21 +41,21 @@ importers:
 
   packages/workers/auth:
     specifiers:
-      '@cfworker/json-schema': 1.12.3
+      '@cfworker/json-schema': 4.1.4
       '@tuxsnct/workers-module-auth': workspace:2.3.0
       worktop: 0.7.3
     dependencies:
-      '@cfworker/json-schema': 1.12.3
+      '@cfworker/json-schema': 4.1.4
       '@tuxsnct/workers-module-auth': link:../../modules/auth
       worktop: 0.7.3
 
   packages/workers/blog:
     specifiers:
-      '@cfworker/json-schema': 1.12.3
+      '@cfworker/json-schema': 4.1.4
       '@tuxsnct/workers-module-auth': workspace:2.3.0
       worktop: 0.7.3
     dependencies:
-      '@cfworker/json-schema': 1.12.3
+      '@cfworker/json-schema': 4.1.4
       '@tuxsnct/workers-module-auth': link:../../modules/auth
       worktop: 0.7.3
 
@@ -399,8 +399,8 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@cfworker/json-schema/1.12.3:
-    resolution: {integrity: sha512-L27wX0PkCGKadJeNqfpiLrXSfbLoC7xTmnF9OImA3Zr6Vtd9BeZGEOa5SKEzeS+ukkFUtN98Pz77vdEfobeTFg==}
+  /@cfworker/json-schema/4.1.4:
+    resolution: {integrity: sha512-20rPE8EX0dSg6JGOVe31HpqsLYZTDSlcFJZA5mpZqQxcZ71vh/SXCMX+UuHO1mMcZBDKeb752z+3L8IWa+0Svg==}
     dev: false
 
   /@cloudflare/workers-types/3.14.0:
